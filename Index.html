@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>포트폴리오 | 홍길동</title>
+
+  <!-- SEO & Open Graph -->
+  <meta name="description" content="홍길동의 포트폴리오 - 웹개발, 프로젝트 경험, 기술 스택 소개" />
+  <meta property="og:title" content="홍길동 포트폴리오" />
+  <meta property="og:description" content="웹개발자 홍길동의 프로젝트와 기술 경험" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og-image.png" />
+  <meta property="og:url" content="https://username.github.io" />
+
+  <!-- 스타일 -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- ===== 헤더 영역 ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">홍길동</a></div>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- ===== 메인 히어로 섹션 ===== -->
+  <section class="hero">
+    <h1>안녕하세요 👋<br />저는 <span class="highlight">웹 개발자 홍길동</span>입니다.</h1>
+    <p>문제를 해결하는 코드와 직관적인 사용자 경험을 만듭니다.</p>
+    <a href="assets/resume.pdf" class="btn-primary">📄 이력서 다운로드</a>
+  </section>
+
+  <!-- ===== 프로젝트 섹션 ===== -->
+  <section class="projects">
+    <h2>대표 프로젝트</h2>
+    <div class="project-cards">
+      <article class="card">
+        <img src="assets/images/project1.webp" alt="프로젝트1 썸네일" />
+        <h3>프로젝트 A</h3>
+        <p>React 기반 데이터 시각화 대시보드<br />성과: 사용자 20% 증가</p>
+        <a href="projects/project-a.html" class="btn-secondary">자세히 보기</a>
+      </article>
+      <article class="card">
+        <img src="assets/images/project2.webp" alt="프로젝트2 썸네일" />
+        <h3>프로젝트 B</h3>
+        <p>AI 모델 서빙 API 구축<br />성과: 응답 속도 40% 개선</p>
+        <a href="projects/project-b.html" class="btn-secondary">자세히 보기</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== 푸터 ===== -->
+  <footer>
+    <p>© 2025 홍길동 | <a href="mailto:email@example.com">email@example.com</a></p>
+    <div class="social-links">
+      <a href="https://github.com/username" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- ===== JS ===== -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
